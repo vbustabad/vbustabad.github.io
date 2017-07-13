@@ -1,0 +1,21 @@
+# Site settings
+title: My Journey on Learning Computer Programming Skills
+header-img: img/home-bg.png
+email: vbustabad@gmail.com
+copyright_name: vbustabad
+description: > # this means to ignore newlines until "baseurl:"
+  Best Practices, Tips and Advice for Learning How to Code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: vbustabad
+github_username:  vbustabad
+learn_profile: vbustabad
+email_username: vbustabad@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
