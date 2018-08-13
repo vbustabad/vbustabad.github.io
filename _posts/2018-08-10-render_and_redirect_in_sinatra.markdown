@@ -21,6 +21,7 @@ There is a fundamental difference between rendering and redirecting in Sinatra e
 ```
 
 Rendering and redirecting will both provide the user with a different view, whether by showing a template for any of the CRUD actions or by taking the user to another URL on the Internet browser. The key difference lies in whether any information regarding the variables is saved. For instance, in the edit action, the @recommendation variable is provided to the edit view template in order to persist the information regarding the recommendation. This supplies the template with the attributes and behavior of the specific recommendation that the user would like to edit. 
+
 With redirecting, however, a new HTTP request is generated and the user is taken to another page or URL on the Internet browser. When a new HTTP request is generated, the information regarding the instance variable will not persist. In order to perform the redirect, the code that would need to be written is redirect to(“/(enter the URL path here)”).  Using the Bon Voyage application as an example, assuming that the user is logged in to the application, I redirected to the main profile page for the user. See the code below: 
 
 ```
