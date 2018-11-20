@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails with Javascript Project"
-date:       2018-11-20 18:06:18 +0000
+date:       2018-11-20 13:06:19 -0500
 permalink:  rails_with_javascript_project
 ---
 
@@ -58,6 +58,10 @@ $('.dogs.show').ready(function(){
   if (descriptionLink != null) {
     descriptionLink.addEventListener("click", getBreedDescription);
   }
+});
+
+$('.dogs.index').ready(function(){
+  console.log("Document has been executed."); 
 
   var showBreedsButton = document.getElementById('show-breeds');
   if (showBreedsButton != null) {
