@@ -48,7 +48,7 @@ Firstly, I created some HTML elements as containers where the Javascript code co
 </div>
 ```
 
-*Dogs.js file*
+*Dogs.js File*
 
 ```
 $('.dogs.show').ready(function(){
@@ -73,6 +73,8 @@ $('.dogs.index').ready(function(){
 Furthermore, I created a couple of functions, getBreedDescription() and getListofBreeds(), which sent some requests using fetch and the JQuery .get() method in order to retrieve the relevant information. Note that only HTML strings can be sent as information over the Internet. Once the information is retrieved by the external or internal API, it must be converted back to JSON. The JSON format allows for easier manipulation of the data so that it can formatted and appended to the application.
 
 I then proceeded to select only the information that I needed, such as the dog description or dog breed, and save the information into a variable. I used the .innerHTML and .href methods for Javascript in order to set the inner HTML content and url path for the link equal to the corresponding values of this information from the response. Another way to append information onto the application is to use the .append method which directly adds the argument that is passed in onto the respective HTML element.
+
+*Dogs.js File continued*
 
 ```
 function getBreedDescription(event) {
