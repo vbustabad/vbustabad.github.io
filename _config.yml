@@ -1,15 +1,14 @@
 # Site settings
-title: My Journey on Learning Computer Programming Skills
+author: Veronica Bustabad
+title: My Journey as a Student with the Flatiron School
 header-img: img/home-bg.png
 email: vbustabad@gmail.com
-copyright_name: vbustabad
+copyright_name: Veronica Bustabad
 description: > # this means to ignore newlines until "baseurl:"
   Best Practices, Tips and Advice for Learning How to Code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: vbustabad
 github_username:  vbustabad
-learn_profile: vbustabad
-email_username: vbustabad@gmail.com
 
 # Build settings
 markdown: kramdown
