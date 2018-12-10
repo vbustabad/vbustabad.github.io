@@ -54,3 +54,62 @@ def new
     @recipe = Recipe.new
 end
 ```
+
+As you can see, the new instance of recipe that is instantiated does not contain any parameters, associations, or other identifying information. For this reason, in the new method for the Recipes controller, we need to include the code: @recipe.ingredients.build. This code will create an empty ingredient object that is associated to the particular instance of recipe. We would then need to add as many ingredients as are necessary for the recipe. If the recipe contains five different ingredients, we would modify the new method in the Recipes controller as follows:
+
+```
+def new
+    @recipe = Recipe.new
+    5.times { @recipe.ingredients.build }
+end
+```
+
+After completion of this step, there would be five sets of ingredient fields that would be visible on the new recipe form. The user would then complete the form by providing the necessary information for the recipe, including its title and the name and quantity for each of its ingredients. The submission of the form would create a new instance of recipe with its corresponding parameters, associations, and nested data. The data structure for the new instance of recipe would be a hash. The hash would look like the following:
+
+```
+{
+  'recipe' => {
+    'title' => 'Ham, cheese and tomato omelette',
+    'ingredients_attributes' => {
+      '0' => {
+        'name' => 'Eggs',
+        'quantity' => '2'
+      },
+      '1' => {
+        'name' => 'Ham',
+        'quantity' => '3'
+      }
+	    '2' => {
+        'name' => 'Cheese',
+        'quantity' => '2'
+      }
+	    '3' => {
+        'name' => 'Tomatoes',
+        'quantity' => '1'
+      }
+	    '4' => {
+        'name' => 'Onions',
+        'quantity' => '1'
+      }
+    }
+  }
+}
+```
+
+The final step for the nested form is to update the recipe_params method in the Recipes controller. The recipe_params method would be updated to accept ingredients_attributes as a parameter. The recipe_params method would therefore look like the following:
+
+```
+def recipe_params
+    params.require(:recipe).permit(
+      :title,
+      ingredients_attributes: [
+        :name,
+        :quantity
+      ]
+    )
+  end
+```
+
+The aforementioned steps cover the basic fundamentals for the nested form in Rails. There is still more to discuss with the topic, such as preventing empty records and avoiding duplicates. Nevertheless, the information presented in this blog post has provided the foundation for utilizing nested forms in Rails and steps for how to incorporate them into your application. 
+
+Stay tuned for future posts!
