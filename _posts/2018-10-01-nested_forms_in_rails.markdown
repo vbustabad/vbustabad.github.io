@@ -79,15 +79,15 @@ After completion of this step, there would be five sets of ingredient fields tha
         'name' => 'Ham',
         'quantity' => '3'
       }
-	'2' => {
+			'2' => {
         'name' => 'Cheese',
         'quantity' => '2'
       }
-	'3' => {
+			'3' => {
         'name' => 'Tomatoes',
         'quantity' => '1'
       }
-	'4' => {
+			'4' => {
         'name' => 'Onions',
         'quantity' => '1'
       }
