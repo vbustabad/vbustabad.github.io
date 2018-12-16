@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "React and Redux Portfolio Project"
-date:       2018-12-16 00:49:15 +0000
+date:       2018-12-15 19:49:16 -0500
 permalink:  react_and_redux_portfolio_project
 ---
 
 I developed an e-commerce application called Home-Deluxe-Application for the React and Redux Portfolio Project. This application enables users to purchase quality home products directly from the website. The home furnishings range from living room, dining room, bedroom, and bathroom products, among others. 
 
-This project required me to build an application that utilizes a Rails API back-end and a React and Redux front-end. Through the various lessons and labs for the curriculum, I learned how React works and how to incorporate Redux as a data management system for the application. As with any portfolio project, the most fundamental lesson is understanding how the various pieces of what was learned fits together, as well as understanding the overall flow of information in the application. As a result, I learned about how components can be created as a way to organize the code for the application. I learned about props and state, specifically the difference between state that is stored in a local component and state that is stored in the Redux store which makes the information accessible throughout the application (local state vs. global state). I also learned how to create buttons in React and associate a callback function which will execute the functionality that is required upon click of the button by the user.
+This project required me to build an application that utilizes a Rails API back-end and a React and Redux front-end. Through the various lessons and labs for the curriculum, I learned how React works and how to incorporate Redux as a data management system for the application. As with any portfolio project, the most fundamental lesson is understanding how the various pieces of what was learned fits together, as well as understanding the overall flow of information in the application. As a result, I learned about how components can be created as a way to organize the code for the application. I learned about props and state, specifically the difference between state that is stored in a local component (local state) and state that is stored in the Redux store which makes the information accessible throughout the application (global state). I also learned how to create buttons in React and associate a callback function which will execute the functionality that is required upon click of the button by the user.
 
 Furthermore, I learned about component lifecycle methods in React and how to subscribe a component to the Redux store. We would subscribe a component to the Redux store by using a connect function which utilizes mapStateToProps and mapDispatchToProps. The mapStateToProps and mapDispatchToProps functions will make certain information accessible to the local component by creating a prop object which can be used in the component. See the code below:
 
