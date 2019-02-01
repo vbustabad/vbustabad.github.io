@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Lifecycle Methods"
-date:       2019-02-01 00:10:33 +0000
+date:       2019-01-31 19:10:33 -0500
 permalink:  react_lifecycle_methods
 ---
 
@@ -10,7 +10,7 @@ React components have access to various lifecycle methods which can be used to r
 
 *Mounting Phase*
 
-The first method that is called during the mounting phase of a React component is the constructor. Note that the constructor is not required for a React component. The constructor is useful for setting an initial state for data that will be managed within the component. Another use case for the constructor is to bind the context of event handlers to a particular object. As shown in the example below, the attributes of name, price, image_url and category are used to define the initial state of product information in the component. The this.handleOnChange.bind(this) and this.handleOnSubmit.bind(this) is used to define the context for when the event handler methods, handleOnChange and handleOnSubmit, should execute. See the code below:
+The first method that is called during the mounting phase of a React component is the *constructor*. Note that the constructor is not required for a React component. The constructor is useful for setting an initial state for data that will be managed within the component. Another use case for the constructor is to bind the context of event handlers to a particular object. As shown in the example below, the attributes of name, price, image_url and category are used to define the initial state of product information in the component. The this.handleOnChange.bind(this) and this.handleOnSubmit.bind(this) is used to define the context for when the event handler methods, handleOnChange and handleOnSubmit, should execute. See the code below:
 
 ```
 class ProductForm extends Component {
