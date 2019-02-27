@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Python Basics"
-date:       2019-02-24 23:11:27 +0000
+date:       2019-02-24 18:11:28 -0500
 permalink:  python_basics
 ---
 
@@ -117,3 +117,27 @@ country = Czech Republic
 introduction(name, profession, country) => Hello, my name is Tomáš. I work as a banker. I am from the Czech Republic. 
 
 ***Conditionals***
+
+Conditionals establish the parameters under which certain code will execute if a certain condition is met. There are various conditional statements that can be defined in Python.
+
+A stand alone if statement will run if the particular condition is satisfied.
+
+if name == ‘Francis’:
+	print(‘Hello Francis.’)
+	
+We can also check if there are a couple of possible outcomes by using an if else statement. 
+
+if open == true:
+	print(‘The office is open.’)
+else:
+	print(‘The office is currently closed.’)
+	
+Lastly, we can also check for multiple conditions by using an if, elsif, and else series. We can use multiple elsif clauses as necessary depending on the number of conditions that are needed. 
+
+if x < 100:
+	print(‘There are less than 100 attendees registered.’)
+elsif x == 100:
+	print(‘There are less than 100 attendees registered.’)
+else:
+	print(‘There are more than 100 attendees registered.’)
+
