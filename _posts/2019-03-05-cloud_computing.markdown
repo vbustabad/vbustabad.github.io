@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Cloud Computing"
-date:       2019-03-05 19:22:52 +0000
+title:      "Cloud Computing Services"
+date:       2019-03-05 14:22:53 -0500
 permalink:  cloud_computing
 ---
 
