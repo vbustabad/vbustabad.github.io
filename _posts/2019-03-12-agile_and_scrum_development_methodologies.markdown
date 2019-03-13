@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Agile and Scrum Development Methodologies"
-date:       2019-03-12 19:45:38 +0000
+date:       2019-03-12 15:45:39 -0400
 permalink:  agile_and_scrum_development_methodologies
 ---
 
@@ -28,3 +28,5 @@ Regular check-ins occur during daily standups throughout the sprint. The daily s
 At the end of every sprint, a sprint review meeting is held. The objective of the sprint review meeting is to review the work that has been completed towards the software product. The meeting will usually consist of a demo of the various features that have been built.
 
 The last step of the Scrum process is the sprint retrospective. The sprint retrospective is an opportunity to reflect on the accomplishments that were achieved during the sprint. The retrospective also serves as an opportunity to reflect on improvements that can be made for the next sprint. 
+
+As a result, the Scrum framework is a particular Agile methodology that is iterative and feedback-driven, which promotes transparency, accountability, and adaptation among all stakeholders in the software development process. The Scrum framework provides useful tools and methods that can be applied towards any software development team. Moreover, the Scrum framework is designed to provide positive reinforcement to all stakeholders involved in the development of a software product through frequent communication and collaboration. This will ensure that the software development process is conducted in a way that promotes greater speed and quality towards the end product that is developed.
