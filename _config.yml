@@ -7,7 +7,7 @@ copyright_name: Veronica Bustabad
 description: > # this means to ignore newlines until "baseurl:"
   Best Practices, Tips and Advice for Learning How to Code
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: vbustabad
+twitter_username: 
 github_username:  vbustabad
 
 # Build settings
